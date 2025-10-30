@@ -4,3 +4,7 @@ services:
     port: 3000
     environment:
       - NODE_ENV=production
+    scale:
+      count: 1
+      cpu: 250
+      memory: 512
